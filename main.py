@@ -67,7 +67,7 @@ class Game:
                 odd_even:str = input("Please enter O/E: ").upper()
                 bet:tuple = (player.player_ref, bet_type, bet_amount, odd_even)
             elif bet_type == "h":
-                high_low:str = input("Please enterH/L: ").upper()
+                high_low:str = input("Please enter H/L: ").upper()
                 bet:tuple = (player.player_ref, bet_type, bet_amount, high_low)
             elif bet_type == "u":
                 column:str = input("Please enter Column [1/2/3]: ")
